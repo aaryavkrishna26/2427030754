@@ -1,0 +1,13 @@
+#2- a cafe allows customer to order multiple items. waf to calculate totalBILL(*items)
+#  where each item  is given as a tuple (name, price). this function should return total bill
+
+
+def totalbill(*items):
+    total=0
+    for item in items:
+        name, price= item
+        total= total+ price
+    return total
+
+bill= totalbill(("coffee", 200), ("tea", 600))
+print(bill)

@@ -1,0 +1,7 @@
+#3- in a ecommerce func applydiscount(price , discount) is frequently used. management asked to reduce 
+# repetitive function defintions
+
+applydiscount= lambda price, discount: price-(price* discount /100)
+print(applydiscount(1000, 10)) 
+print(applydiscount(500, 5))    
+

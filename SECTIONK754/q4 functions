@@ -1,0 +1,16 @@
+# wap which calculates area:
+# 1) if l and b are provided return rectangle area
+# 2) if only l is provided return square area
+
+def solution(l,b=None):
+    if b is not None:
+        return l*b
+    else:
+        return l*l
+    
+print(solution(l=50, b=10))
+
+print(solution(l=50))
+
+
+    
